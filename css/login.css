@@ -1,0 +1,29 @@
+body {
+    min-height: 100vh;
+    background-color: #ccc;
+    background: url(https://unsplash.it/g/1500/800?random) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.login-form {
+    margin-top: 50vh;
+    padding: 20px 30px;
+
+    background-color: rgb(0, 0, 0, .9);
+    color: #ffffff;
+
+    transform: translateY(-50%);
+}
+
+.login-form h1 {
+    margin: 0 0 5px;
+}
+
+.login-form h2 {
+    margin: 0 0 30px;
+    font-size: 1em;
+}
