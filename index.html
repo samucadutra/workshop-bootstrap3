@@ -8,6 +8,7 @@
     <title></title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -100,9 +101,12 @@
                         <td>Jorge</td>
                         <td><span class="label label-primary">Em andamento</span></td>
                         <td class="text-center">
-                            <a href="" data-toggle="tooltip" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
-                            <a href="" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
-                            <a href="" data-toggle="tooltip" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
+                            <a href="" data-toggle="tooltip" title="Finalizar"><span
+                                    class="glyphicon glyphicon-ok text-success"></span></a>
+                            <a href="" data-toggle="tooltip" title="Editar"><span
+                                    class="glyphicon glyphicon-pencil text-warning"></span></a>
+                            <a href="" data-toggle="tooltip" title="Excluir"><span
+                                    class="glyphicon glyphicon-trash text-danger"></span></a>
                         </td>
                     </tr>
                     <tr>
@@ -113,9 +117,12 @@
                         <td>Jorge</td>
                         <td><span class="label label-default">Em andamento</span></td>
                         <td class="text-center">
-                            <a href="" data-toggle="tooltip" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
-                            <a href="" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
-                            <a href="" data-toggle="tooltip" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
+                            <a href="" data-toggle="tooltip" title="Finalizar"><span
+                                    class="glyphicon glyphicon-ok text-success"></span></a>
+                            <a href="" data-toggle="tooltip" title="Editar"><span
+                                    class="glyphicon glyphicon-pencil text-warning"></span></a>
+                            <a href="" data-toggle="tooltip" title="Excluir"><span
+                                    class="glyphicon glyphicon-trash text-danger"></span></a>
                         </td>
                     </tr>
                     <tr>
@@ -126,9 +133,12 @@
                         <td>Jorge</td>
                         <td><span class="label label-warning">Em andamento</span></td>
                         <td class="text-center">
-                            <a href="" data-toggle="tooltip" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
-                            <a href="" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
-                            <a href="" data-toggle="tooltip" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
+                            <a href="" data-toggle="tooltip" title="Finalizar"><span
+                                    class="glyphicon glyphicon-ok text-success"></span></a>
+                            <a href="" data-toggle="tooltip" title="Editar"><span
+                                    class="glyphicon glyphicon-pencil text-warning"></span></a>
+                            <a href="" data-toggle="tooltip" title="Excluir"><span
+                                    class="glyphicon glyphicon-trash text-danger"></span></a>
                         </td>
                     </tr>
                     <tr>
@@ -139,9 +149,12 @@
                         <td>Jorge</td>
                         <td><span class="label label-danger">Em andamento</span></td>
                         <td class="text-center">
-                            <a href="" data-toggle="tooltip" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
-                            <a href="" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
-                            <a href="" data-toggle="tooltip" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
+                            <a href="" data-toggle="tooltip" title="Finalizar"><span
+                                    class="glyphicon glyphicon-ok text-success"></span></a>
+                            <a href="" data-toggle="tooltip" title="Editar"><span
+                                    class="glyphicon glyphicon-pencil text-warning"></span></a>
+                            <a href="" data-toggle="tooltip" title="Excluir"><span
+                                    class="glyphicon glyphicon-trash text-danger"></span></a>
                         </td>
                     </tr>
                     <tr>
@@ -152,9 +165,12 @@
                         <td>Jorge</td>
                         <td><span class="label label-success">Em andamento</span></td>
                         <td class="text-center">
-                            <a href="" data-toggle="tooltip" title="Finalizar"><span class="glyphicon glyphicon-ok text-success"></span></a>
-                            <a href="" data-toggle="tooltip" title="Editar"><span class="glyphicon glyphicon-pencil text-warning"></span></a>
-                            <a href="" data-toggle="tooltip" title="Excluir"><span class="glyphicon glyphicon-trash text-danger"></span></a>
+                            <a href="" data-toggle="tooltip" title="Finalizar"><span
+                                    class="glyphicon glyphicon-ok text-success"></span></a>
+                            <a href="" data-toggle="tooltip" title="Editar"><span
+                                    class="glyphicon glyphicon-pencil text-warning"></span></a>
+                            <a href="" data-toggle="tooltip" title="Excluir"><span
+                                    class="glyphicon glyphicon-trash text-danger"></span></a>
                         </td>
                     </tr>
                 </tbody>
@@ -173,7 +189,7 @@
                     <li><a href="">4</a></li>
                     <li><a href="">5</a></li>
                     <li><a href=""><span>»</span></a></li>
-                  </ul>
+                </ul>
             </div>
         </footer>
     </div>
@@ -183,11 +199,69 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
+                    <button type="button" data-dismiss="modal" class="close">
+                        <span>&times;</span>
+                    </button>
                     <h4 class="modal-title">Nova Ordem de Serviço</h4>
                 </div>
                 <form action="">
                     <div class="modal-body">
-
+                        <div class="alert alert-warning">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span>&times;</span>
+                            </button>
+                            <b>Ocorreu um erro!</b> verifique!
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <label class="control-label" for="">Código da OS</label>
+                                <p class="form-control-static">65151</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-sm-5">
+                                <label class="control-label" for="Cliente">Cliente</label>
+                                <select name="Cliente" id="Cliente" class="form-control">
+                                    <option value="">Selecione...</option>
+                                    <option value="1">Frodo Bolseiro</option>
+                                    <option value="2">Gandalf Cinzento</option>
+                                    <option value="3">Sauronde Mordor</option>
+                                </select>
+                            </div>
+                            <div class="form-group has-warning col-sm-7">
+                                <label class="control-label" for="Servicos">Serviços</label>
+                                <select name="Servicos" id="Servicos" class="form-control">
+                                    <option value="">Selecione...</option>
+                                    <option value="1">Ajuste de data e hora</option>
+                                    <option value="2">Conserto de engrenagem</option>
+                                    <option value="3">Troca de bateria</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group has-error col-xs-12">
+                                <label class="control-label" for="Observacao">Observação</label>
+                                <textarea name="Observacao" id="Observacao" class="form-control" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group has-success col-sm-4">
+                                <label class="control-label" for="Valor">Valor</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">R$</div>
+                                    <input type="text" name="Valor" id="Valor" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="control-label" for="Data">Data de entrega</label>
+                                <div class="input-group date" data-provide="datepicker" data-date-language="pt-BR">
+                                    <input type="text" name="Data" id="Data" class="form-control">
+                                    <div class="input-group-addon">
+                                        <span class="glyphicon glyphicon-th"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="reset" class="btn btn-danger">Limpar</button>
@@ -200,7 +274,16 @@
 
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/bootstrap-datepicker.pt-BR.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        //Essa função faz o datepicker fechar após seleção da data
+        $('[data-provide=datepicker]').datepicker({
+          format: 'dd/mm/yyyy',
+          autoclose: true
+        });
+      </script>
 </body>
 
 </html>
